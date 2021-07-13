@@ -1,0 +1,10 @@
+POST http://172.17.165.166:8088/api/v1/watermark
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="imgFile"; filename="1.jpg"
+
+< ./1.jpg
+--WebAppBoundary
+
+###
